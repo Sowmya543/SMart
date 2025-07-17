@@ -1,0 +1,94 @@
+.faq{
+    width: 100%;
+    padding: 0px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.faq-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#faqu{
+    width: 338px;
+}
+
+.faq-cards{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-cards .qacard{
+    width: 610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0 10px;
+    border-radius: 8px;
+    border: 2px solid #008ECC;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.qacard .ques{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding:0 3%;
+}
+
+.qacard .answers{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(1,0,1,0);
+    padding:0 3%;
+}
+
+.qacard .answers.show{
+    height: auto;
+    max-height: 999999px;
+    transition: all 1s cubic-bezier(1,0,1,0); 
+}
+
+#plus{
+    font-size: 2rem;
+}
+
+.reverse{
+    font-size: 2rem;
+    transform: rotate(45deg);
+    transition: all 0.1s cubic-bezier(1,0,1,0);
+}
+
+.ques p{
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 2px;
+}
+
+.answers p{
+    font-size: 1rem;
+    font-weight: 500;
+    padding:4% 0;
+}
+
+#line{
+    width:600px;
+    height: 1px;
+    background-color: #008ECC;
+}

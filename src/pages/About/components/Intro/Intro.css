@@ -1,0 +1,32 @@
+.about-intro{
+    /* background: url("../../../../assets/about-intro.png");
+    background-position: center;
+    background-size: cover; */
+    padding: 100px 44px 100px 44px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.about-intro h1{
+    font-size: 30px;
+    font-weight: 550;
+    color: #008ECC;
+}
+
+.about-intro p {
+    font-size: 20px;
+}
+
+
+.about-intro img{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}

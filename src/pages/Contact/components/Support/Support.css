@@ -1,0 +1,37 @@
+.support-grid {
+    width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "box1 box2"
+    "box3 box3";
+  gap: 20px;
+  padding: 100px 0px;
+}
+
+.support-box {
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 20px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box1 { grid-area: box1; }
+.box2 { grid-area: box2; }
+.box3 { grid-area: box3; }
+
+
+.support-box h3{
+    font-size: 28px;
+    color: #008ECC;
+    padding-bottom: 20px;
+}
+.support-box p{
+    font-size: 20px;
+}

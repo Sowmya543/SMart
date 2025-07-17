@@ -1,0 +1,158 @@
+.smartphones {
+    width: 100%;
+    padding: 0px 100px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.head h1{
+    font-size: 28px;
+    font-weight: 550;
+}
+
+
+.head button{
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.underline {
+    height: 3.5px;
+    width: 425px;
+    background-color: #008ECC;
+    border-radius: 3px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #EDEDED;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 1px solid #008ECC;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 248px;
+    /* height: 300px; */
+    /* padding: 15px; */
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    /* box-shadow: 2px 2px 8px #ddd; */
+}
+
+#image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #F5F5F5;
+    border-radius: 12px 12px 0px 0px;
+}
+
+span{
+    display: block;
+}
+
+#off{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #008ECC;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 12px;
+}
+
+.card img {
+    width: 125px;
+    height: 160px;
+}
+
+#details{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+#details h3{
+    text-align: left;
+    font-size: 16px;
+}
+
+#details p{
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    font-size: 16px;
+}
+
+#details #cross{
+    text-decoration: line-through;
+    color: #4f4f4f;
+}
+
+#details #save{
+    color: #249B3E;
+    font-weight: 600;
+}
+
+.cards-container #details button {
+    /* margin-top: 10px; */
+    padding: 6px 10px;
+    background-color: #249B3E;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}

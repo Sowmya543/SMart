@@ -1,0 +1,123 @@
+.footer{
+    width: 100%;
+    padding: 0px 100px;
+    background-color: #008ECC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+.divider1{
+    width: 100%;
+    height: 1px;
+    background-color: #05ABF3;
+}
+
+.rights{
+    padding: 20px;
+}
+
+.footer .parts{
+    width: 100%;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.parts .part1{
+    width: 420px;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 18px;
+    /* background-color: blue; */
+}
+
+.part1 h1{
+    font-size: 50px;
+}
+
+.part1 p{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.part1 .contact{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact p{
+    font-size: 16px;
+}
+
+.part1 #f3{
+    width: 420px;
+    height: 100px;
+}
+
+.parts .part2{
+    width: 600px;
+    height: 450px;
+    padding: 50px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2 .subs{
+    width: 350px;
+    height: 400px;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subs .underline1{
+    width: 220px;
+    height: 2px;
+    background-color: white;
+}
+
+.subs .underline2{
+    width: 170px;
+    height: 2px;
+    background-color: white;
+}
+
+.subs h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.subs ul{
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px 0px 0px 40px;
+}
+
+.subs li{
+    line-height: 38px;
+}
+
+.mask{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

@@ -1,0 +1,21 @@
+
+
+.light-theme {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #f1f1f1;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.dark-theme {
+  --bg-color: #121212;
+  --text-color:#008eee;
+  --primary-color: #1e1e1e;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+body {
+  transition: all 0.3s ease;
+}

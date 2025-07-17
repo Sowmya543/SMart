@@ -1,0 +1,33 @@
+.vision{
+    width: 100%;
+    padding: 80px 44px 80px 44px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+}
+
+
+.vision h1{
+    font-size: 30px;
+    font-weight: 550;
+    color: #008ECC;
+}
+
+.vision p {
+    font-size: 20px;
+}
+
+.vision img{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+}
+
+.vision span{
+    display: block;
+}

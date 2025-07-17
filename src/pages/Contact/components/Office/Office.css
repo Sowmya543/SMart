@@ -1,0 +1,42 @@
+.office{
+    width: 100%;
+    padding: 150px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    /* gap: 100px; */
+}
+
+.office img{
+    width: 650px;
+    height: 350px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.office-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 100px;
+}
+
+.office h1{
+    color: #008ECC;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.office p{
+    font-size: 20px;
+}
+
+#follow{
+    position: absolute;
+    top: 440px;
+    left: 220px;
+}

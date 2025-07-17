@@ -1,0 +1,74 @@
+.cartbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 100px 100px 100px;
+  position: relative;
+  /* background: url("../../../../assets/cartform.jpg");
+  background-position: center;
+  background-size: cover; */
+}
+
+.cartbox img{
+  width: 900px;
+  height: 550px;
+  position: absolute;
+  bottom: 0;
+  left: 500px;
+}
+
+
+
+.cartbox h1{
+  padding-left: 210px;
+  color: #008ecc;
+}
+
+.cart-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 600px;
+  /* margin: 20px auto; */
+  padding: 30px;
+  border-radius: 10px;
+  background: aliceblue;
+  border: 1px solid #008ecc;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.cart-form input,
+.cart-form textarea {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.cart-form input:focus,
+.cart-form textarea:focus {
+  border: 1px solid #008ecc;
+}
+
+.cart-form button {
+  background: #008ecc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cart-form button:hover {
+  background: #0056b3;
+}
+
+textarea {
+  resize: none;
+}

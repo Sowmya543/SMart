@@ -1,0 +1,59 @@
+.essentials {
+    width: 100%;
+    padding: 0px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.ess-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ess-content #deu{
+    width: 190px;
+}
+
+.ess-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ess-card{
+    width: 210px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ess-card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 18px;
+}
+
+.ess-card img:hover{
+    border: 1px solid #008ECC;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.ess-card p{
+    color: #666666;
+    padding-top: 15px;
+}
+
+.ess-card h3{
+    font-size: 18px;
+    font-weight: 500;
+}

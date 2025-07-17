@@ -1,0 +1,44 @@
+.popup {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  /* background-color: white; */
+  /* border: 3px solid black; */
+  padding: 3rem 2rem 2rem 1rem;
+  /* border-radius: 25px; */
+  z-index: 1000;
+  animation: pulse 1s infinite;
+  width: 320px;
+  height: 465px;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 110px;
+  color: #008ecc;
+  background: url("../../assets/callingbg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.ringing-phone {
+  width: 150px;
+  height: auto;
+  /* border: 1px solid black; */
+}
+
+.home-btn{
+    background-color: black;
+    width: 55px;
+    height: 30px;
+    border-radius: 50px;
+    border-style: double;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1) translate(-50%, -20%); }
+  50% { transform: scale(1.05) translate(-50%, -20%); }
+  100% { transform: scale(1) translate(-50%, -20%); }
+}

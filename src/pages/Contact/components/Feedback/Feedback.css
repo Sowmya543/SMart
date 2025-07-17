@@ -1,0 +1,70 @@
+.feedback {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px 0px;
+  position: relative;
+  gap: 25px;
+}
+
+.feedback h1{
+  padding-left: 130px;
+  color: #008ecc;
+}
+
+.fb-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 600px;
+  /* margin: 20px auto; */
+  padding: 30px;
+  border-radius: 10px;
+  background: aliceblue;
+  border: 1px solid #008ecc;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.fb-form input,
+.fb-form textarea {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.fb-form input:focus,
+.fb-form textarea:focus {
+  border: 1px solid #008ecc;
+}
+
+.fb-form button {
+  background: #008ecc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.fb-form button:hover {
+  background: #0056b3;
+}
+
+textarea {
+  resize: none;
+}
+
+.feedback img{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
