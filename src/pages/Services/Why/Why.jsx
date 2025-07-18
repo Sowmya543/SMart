@@ -4,8 +4,14 @@ import "./Why.css"
 
 const Why = () => {
   return (
-    <div>
-      <h1>Why</h1>
+    <div className='why-container'>
+      <h2>Why Choose Us?</h2>
+      <ul style={{"paddingLeft": "60px", "lineHeight": "35px", "fontSize": "20px"}}>
+        <li>✅ Trusted by thousands of customers</li>
+        <li>✅ Transparent policies</li>
+        <li>✅ Affordable prices</li>
+        <li>✅ Fast & secure platform</li>
+      </ul>
     </div>
   )
 }
