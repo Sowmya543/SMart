@@ -3,13 +3,15 @@ import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 
 import "./Services.css"
+import Points from './Points/Points'
 
 const Services = () => {
   return (
     <div>
       <Navbar />
       <div className='service-container'>
-        <h1>Services</h1>
+        <h2>🤝 Our Services</h2>
+        <Points />
       </div>
       <Footer />
     </div>

@@ -1,4 +1,14 @@
 .service-container{
     width: 100%;
-    padding: 12vh 100px 100px;
+    padding: 14vh 100px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.service-container h2{
+    font-size: 35px;
+    color: #0087c1;
 }

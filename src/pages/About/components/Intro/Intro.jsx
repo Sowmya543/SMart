@@ -10,10 +10,10 @@ const Intro = () => {
         <div className='about-intro'>
             <h1>Who We Are?</h1>
             <p>Welcome to SMart, your intelligent one-stop shop for everything essential. 
-                Born out of the need for <span></span> smarter, faster, and more reliable online shopping, SMart brings you groceries, <span></span>
+                Born out of<span></span> the need for  smarter, faster, and more reliable online shopping, SMart brings you<span></span> groceries, 
                 electronics, and daily essentials — all in one sleek platform.</p>
             <h1>Our Mission -</h1>
-            <p>To simplify lives by delivering a seamless shopping experience powered by smart technology, real-time <span></span> updates, and lightning-fast service.</p>
+            <p>To simplify lives by delivering a seamless shopping experience powered by smart <span></span> technology, real-time updates, and lightning-fast service.</p>
             {/* <img src={img1} alt="" /> */}
 
             <Framer src={img1} alt="" direction="right"/>

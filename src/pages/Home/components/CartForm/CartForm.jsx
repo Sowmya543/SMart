@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { CartContext } from '../../../../contextAPI/CartContext';
 import './CartForm.css';
-import img1 from "../../../../assets/cartform.png"
+import img1 from "../../../../assets/cartform1.gif"
 
 const CartForm = () => {
     const { addToCart } = useContext(CartContext);
@@ -29,6 +29,7 @@ const CartForm = () => {
         <div className='cartbox'>
             <h1>Add To Cart</h1>
             <img src={img1} alt="" />
+            {/* <script type="text/javascript" async src="https://tenor.com/embed.js"></script> */}
             <form className="cart-form" onSubmit={handleSubmit}>
                 <input type="text" name="imageURL" placeholder="Image URL" value={form.imageURL} onChange={handleChange} required />
                 <input type="text" name="itemName" placeholder="Item Name" value={form.itemName} onChange={handleChange} required />
